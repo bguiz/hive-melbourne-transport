@@ -1,0 +1,17 @@
+#eclipse-1st-time.txt
+#20120922 =BG=
+
+cd ${PROJ}/melbtranserver
+sbt update
+sbt eclipse
+#open eclipse, switch to relevant workspac, or create one
+#File > Import
+#General > Existing Projects into Workspace
+#Select root directory > ${PROJ}/melbtranserver
+#Run > Run configurations
+#Scala APplication >(R-click) > New
+#Name: MelbTranServer
+#Project: melbournetranserver
+#Main class: co.melbournetransport.JettyLauncher
+#Apply
+#Run
